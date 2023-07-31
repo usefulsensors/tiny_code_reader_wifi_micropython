@@ -25,7 +25,9 @@ for the latest information, but here is a summary:
  - Drag the MicroPython uf2 file onto the `RPI-RP2` drive that appears.
 
 I recommend downloading [Thonny](https://thonny.org/) to your desktop computer
-to run the MicroPython script.
+to run the MicroPython script. If you see a runtime error that `import network`
+has failed, then it's likely you've used the **Pico** version of MicroPython, 
+not the Pico **W**.
 
 ## Wiring Information
 
